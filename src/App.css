@@ -1,0 +1,41 @@
+body{
+  background-color: #8c8889;
+}
+#form{
+  position: absolute;
+  top: 25vh;
+  left: 35vw;
+  background-color: white;
+  height: 60vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+
+
+}
+
+.inputField{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vh;
+  height: 6vh;
+  width: 20vw;
+  background-color: #eeecef;
+  border: none;
+}
+
+.errors{
+  color: red;
+  margin: 0px;
+}
+
+#resisteredBTN{
+  height: 6vh;
+  width: 20vw;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 2vh;
+}
